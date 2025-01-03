@@ -13,7 +13,7 @@ yesBtn.addEventListener("click", () => {
 namee.style.display = "none";
 
   if (yesClickCount % 2 === 1) {
-    question.innerHTML = "Yay, see you on the 19th!";
+    question.innerHTML = "Yay, see you on the Feb 14th!";
     gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
     yesBtn.textContent = "Aww";
     noBtn.style.display = "none";
