@@ -72,7 +72,7 @@ button:nth-child(2) {
     text-align: center;
     font-size: 1.5em;
     color: #e94d58;
-    margin-top: 15px;
+    margin-top: -85px;
     animation: fadeIn 1s ease-in-out;
 }
 
