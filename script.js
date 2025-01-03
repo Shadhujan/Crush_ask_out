@@ -21,6 +21,12 @@ namee.style.display = "none";
   } else {
     question.innerHTML = "Can't wait to see you there! Kanmani 😘❤️";
     gif.src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjQ0dzRscDZjM2Y4ZGNzZTZmZXRieGJvdTE5ZDIwd2pmMWM5c3llOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eiRpSPB8OSGVcbkOIJ/giphy.webp"; // Another GIF URL
+    
+    const nameTag = document.createElement("h2"); 
+    nameTag.classList.add("name-tag"); 
+    nameTag.textContent = "Yours, Booboo😊❤"; 
+    wrapper.appendChild(nameTag);
+    
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
   }
