@@ -26,6 +26,7 @@ h2 {
     color: #e94d58;
     margin: 15px 0;
 }
+
 .btn-group {
     width: 100%;
     height: 50px;
@@ -33,6 +34,7 @@ h2 {
     justify-content: center;
     margin-top: 50px;
 }
+
 button {
     position: absolute;
     width: 150px;
@@ -46,10 +48,12 @@ button {
     border: 2px solid #e94d58;
     font-size: 1.2em;
 }
+
 button:nth-child(1) {
     margin-left: -200px;
     background: #e94d58;
 }
+
 button:nth-child(2) {
     margin-right: -200px;
     background: white;
@@ -62,6 +66,24 @@ button:nth-child(2) {
     color: #e94d58;
     animation: float 2s ease-out forwards;
     pointer-events: none;
+}
+
+.name-tag {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e94d58;
+    margin-top: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes moveGradient {
