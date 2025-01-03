@@ -10,13 +10,13 @@ yesBtn.addEventListener("click", () => {
   yesClickCount++;
 
   if (yesClickCount % 2 === 1) {
-    question.innerHTML = "Yay, see you on the 19th!";
+    question.innerHTML = "Yay, see you on the Jan-19th!";
     gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
     yesBtn.textContent = "Aww";
     noBtn.style.display = "none";
     yesBtn.style.marginLeft = "0";
   } else {
-    question.innerHTML = "Can't wait to see you there! Kanmani❤️";
+    question.innerHTML = "Can't wait to see you there! Kanmani😘❤️";
     gif.src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjQ0dzRscDZjM2Y4ZGNzZTZmZXRieGJvdTE5ZDIwd2pmMWM5c3llOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eiRpSPB8OSGVcbkOIJ/giphy.webp"; // Another GIF URL
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
